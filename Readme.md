@@ -1,7 +1,4 @@
-### SMOアルゴリズムによるソフトマージンSVMの最適化
+### SVM-SMO (RBF kernel)
 
-
-#### RBFカーネル
-
-$K(\bm{x}_i, \bm{x}_j)  = \bm{\phi}(\bm{x}_i )^{\mathrm{T}}\bm{\phi}(\bm{x}_j )
-= \exp(-\gamma \| \bm{x}_i - \bm{x}_j \| ^2)$
+This is an implementation of soft margin support vector machine (SVM) with RBF kernel.
+The optimization is solved by sequential minimal optimization (SMO) algorithm.
